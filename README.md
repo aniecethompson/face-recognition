@@ -8,6 +8,7 @@ CSS
 Tachyons
 React.js
 React-Tilt
+React-Particles
 
 ## Installation
 
