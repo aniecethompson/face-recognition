@@ -7,7 +7,7 @@ A React face recognition application that allows users to search any image for f
 CSS
 Tachyons
 React.js
-React-
+React-Tilt
 
 ## Installation
 
