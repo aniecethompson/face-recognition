@@ -5,10 +5,11 @@ A React face recognition application that allows users to search any image for f
 ## Languages and Frameworks
 ### Front-End
 CSS
-Tachyons
-React.js
-React-Tilt
-React-Particles
+* Tachyons
+* React.js
+* React-Tilt
+* React-Particles
+* Clarifai API
 
 ## Installation
 
