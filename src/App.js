@@ -5,6 +5,7 @@ import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm';
 import Rank from './components/Rank/Rank';
 import FaceRecognition from './components/FaceRecognition/FaceRecognition';
 import Particles from 'react-particles-js';
+import SignIn from './components/SignIn/SignIn';
 import './App.css';
 import Clarifai from 'clarifai';
 let API_KEY = process.env.REACT_APP_API_KEY
@@ -44,14 +45,12 @@ const particlesOptions = {
 
 class App extends Component {
 
-  constructor() {
-    super();
-    this.state = {
+  state = {
       input: '',
       imageUrl: '',
-      box: {}
+      box: {},
+      route: 'sigin'
     }
-  }
 
   calculateFaceLocation = (data) =>{
     const clarifyFace = data.outputs[0].data.regions[0].region_info.bounding_box
@@ -95,6 +94,7 @@ class App extends Component {
         params={particlesOptions}
             /> 
       <Navigation />
+      <SignIn />
       <Logo />
       <Rank />
       <ImageLinkForm 
