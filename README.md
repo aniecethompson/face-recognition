@@ -11,6 +11,12 @@ CSS
 * React-Particles
 * Clarifai API
 
+### Back-End
+
+* Node.js
+* Express.js
+* Bcrypt
+
 ## Installation
 
 First, clone/fork-clone this repo and use the package manager npm to install Find Me's packages locally. Run "npm start" to see the project in your browser.
